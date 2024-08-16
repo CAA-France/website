@@ -32,4 +32,4 @@ for name, (lat, lon) in locations.items():
 folium.Marker(France, popup='France', icon=folium.Icon(color='red')).add_to(m)
 
 # Save the map to an HTML file
-m.save(dir_path + '/caa-national-chapter.html')
+m.save(dir_path + '/caa-national-chapters.html')
